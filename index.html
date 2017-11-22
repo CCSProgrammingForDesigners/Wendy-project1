@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Development Environment</title>
+  <title>Cube.js Demo - standalone page</title>
+
+  <meta name = "description" content = "gest.js is a webcam based gesture recognition library that helps developers make webpages more immersive">
+  <meta name = "author" content = "Hadi Michael (http://hadi.io)">
+  <meta name="description" content="Cube.js : Rubik's cube solver and scrambler">
+
+  <!-- include js -->
+
+<script src="gest.js"></script>
+
+
+
+  <style>
+	#randomstate { visibility: hidden; }
+
+  </style>
+</head>
+
+<body>
+	<p id="status"></p>
+	<p id="randomstate">
+	       <button>Generate random scramble</button><br>
+	       <span class="result"></span>
+	</p>
+
+
+  <!--<script type="text/javascript">
+   gest.start();
+    gest.options.debug(true);
+
+    gest.options.subscribeWithCallback(function(gesture) {
+      console.log(gesture.direction);
+    });
+  </script>-->
+
+
+
+	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/lib/cube.js"></script>
+  <script src="/lib/async.js"></script>
+  <script src="/lib/wendy.js"></script>
+
+
+</body>
+
+</html>
